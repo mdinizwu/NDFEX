@@ -1,6 +1,6 @@
 # NDFEX
 
-Notre Dame Fake Exchange
+Notre Dame Fake Exchange - Special Orders
 
     This project is intended for the course on High-Frequency Trading Technologies at the University of Notre Dame. It is a toy version of a real exchange
     for students to practice trading strategies.
@@ -14,12 +14,9 @@ Notre Dame Fake Exchange
 
         - Bot Runner: Runs a collection of very simple trading strategies to create the illusion of an active market
 
-    Future:
+    Additional Features:
     
-        - PCAP Recorder
-            - Records all traffic to / from exchange server for student debugging
-
-        More Trading bots
-            - Microprice market makers - try to balance buys and sells, stacks
-            - VWAP Broker - gets a random quantity to execute every minute and sends it semi-randomly over that time period
+        - Advanced Orders
+            - Iceberg Orders
+            - AON Orders
 
